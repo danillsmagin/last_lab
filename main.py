@@ -4,7 +4,7 @@ if __name__ == '__main__':
     while True:
         get_data = input('U wanna get data from txt file?(y-yes/n-not/e-exit)\n')
         if get_data == 'y':
-            with open('words_list', 'r') as file:
+            with open('words_list2.0', 'r') as file:
                 str_file = file.read()
                 list_file = str_file.split(' ')
                 print(list_file)
