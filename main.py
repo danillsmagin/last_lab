@@ -36,6 +36,7 @@ if __name__ == '__main__':
 
         elif get_data == 'n':
             word_list = WordList(['привет', 'але', 'але', 'как', 'дела', 'але', 'как'])
+            print(word_list)
             while True:
                 print('1.Upper register all word')
                 print('2.Lower register all word')

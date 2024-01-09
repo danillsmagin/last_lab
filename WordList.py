@@ -39,9 +39,4 @@ class WordList(list):
         if index is not None:
             print(self.my_list.pop(index))
         else:
-            not_repeat = []
-            for item in self.my_list:
-                if item not in not_repeat:
-                    not_repeat.append(item)
-
-            print(' '.join(not_repeat))
+            print(list(dict.fromkeys(self.my_list).keys()))
